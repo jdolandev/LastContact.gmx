@@ -20,7 +20,7 @@ void main()
 
 //######################_==_YOYO_SHADER_MARKER_==_######################@~//
 // Game Boy color simulation fragment shader
-//
+// Written by jdolandev. Feel free to steal, I don't give a shit.
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
