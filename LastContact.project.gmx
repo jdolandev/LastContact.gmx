@@ -30,22 +30,30 @@
     <sprites name="environmental">
       <sprite>sprites\spr_warp_mask</sprite>
     </sprites>
-    <sprite>sprites\sprite8</sprite>
-    <sprite>sprites\spr_seyeball</sprite>
-    <sprite>sprites\spr_seyeballChase</sprite>
-    <sprite>sprites\spr_star</sprite>
-    <sprite>sprites\spr_explosion</sprite>
-    <sprite>sprites\sprite13</sprite>
-    <sprite>sprites\spr_sword</sprite>
-    <sprite>sprites\sprite15</sprite>
     <sprites name="UI">
       <sprite>sprites\spr_healthNode</sprite>
+      <sprite>sprites\spr_playerPortrait</sprite>
     </sprites>
-    <sprite>sprites\spr_playerPortrait</sprite>
-    <sprite>sprites\spr_slimeL</sprite>
-    <sprite>sprites\spr_slimeR</sprite>
-    <sprite>sprites\spr_cursor</sprite>
-    <sprite>sprites\sprite26</sprite>
+    <sprites name="enemies">
+      <sprite>sprites\spr_slimeL</sprite>
+      <sprite>sprites\spr_slimeR</sprite>
+    </sprites>
+    <sprites name="bosses">
+      <sprite>sprites\sprite8</sprite>
+      <sprite>sprites\spr_seyeballChase</sprite>
+      <sprite>sprites\spr_seyeball</sprite>
+    </sprites>
+    <sprites name="particles">
+      <sprite>sprites\spr_star</sprite>
+      <sprite>sprites\spr_explosion</sprite>
+    </sprites>
+    <sprites name="misc">
+      <sprite>sprites\spr_sword</sprite>
+      <sprite>sprites\sprite13</sprite>
+      <sprite>sprites\spr_cursor</sprite>
+      <sprite>sprites\spr_swordSwing</sprite>
+      <sprite>sprites\spr_agdg</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -100,6 +108,7 @@
     <object>objects\obj_cursor</object>
     <object>objects\obj_slash</object>
     <object>objects\obj_enemy</object>
+    <object>objects\object23</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room9</room>
